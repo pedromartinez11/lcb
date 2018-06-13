@@ -1,13 +1,12 @@
-import React, { Component } from "react";
-import "./card.css";
+import React, {Component} from 'react';
+import './card.css';
 
-import Cell from "../Cell/Cell";
+import Cell from '../Cell/Cell';
 
 class Card extends Component {
-  render() {
+  render () {
     return (
       <div className="lcb-card">
-        <p>i am card</p>
         <Cell />
         <Cell />
         <Cell />
@@ -27,7 +26,6 @@ class Card extends Component {
         <Cell />
         <Cell />
         <Cell />
-        <p>card footer</p>
       </div>
     );
   }

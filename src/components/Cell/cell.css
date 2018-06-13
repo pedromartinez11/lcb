@@ -1,6 +1,6 @@
-
-
 .lcb-cell {
-	background-color: gainsboro;
-	margin: 2px;
+  background-color: aliceblue;
+  margin: 3px;
+  padding: 5px;
+  border: 3px solid goldenrod;
 }

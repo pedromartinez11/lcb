@@ -1,11 +1,11 @@
-import React, { Component } from "react";
-import Button from "@material-ui/core/Button";
+import React, {Component} from 'react';
+import Button from '@material-ui/core/Button';
 
 class SaveButton extends Component {
   onClick = ev => {
-    window.alert("save!");
+    window.alert ('save!');
   };
-  render() {
+  render () {
     return (
       <Button variant="raised" color="primary" onClick={this.onClick}>
         Save
