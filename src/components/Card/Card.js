@@ -7,25 +7,26 @@ class Card extends Component {
   render () {
     return (
       <div className="lcb-card">
-        <Cell />
-        <Cell />
-        <Cell />
-        <Cell />
+        <Cell cardNumber={1} />
+        <Cell cardNumber={1} />
+        <Cell cardNumber={1} />
+        <Cell cardNumber={1} />
 
-        <Cell />
-        <Cell />
-        <Cell />
-        <Cell />
+        <Cell cardNumber={1} />
+        <Cell cardNumber={1} />
+        <Cell cardNumber={1} />
+        <Cell cardNumber={1} />
 
-        <Cell />
-        <Cell />
-        <Cell />
-        <Cell />
+        <Cell cardNumber={1} />
+        <Cell cardNumber={1} />
+        <Cell cardNumber={1} />
+        <Cell cardNumber={1} />
 
-        <Cell />
-        <Cell />
-        <Cell />
-        <Cell />
+        <Cell cardNumber={1} />
+        <Cell cardNumber={1} />
+        <Cell cardNumber={1} />
+        <Cell cardNumber={1} />
+
       </div>
     );
   }
