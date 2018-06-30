@@ -1,6 +1,8 @@
 export const SELECT = 'select';
 
-export const config = (state, action) => {
+const initialState = {};
+
+export const config = (state = initialState, action) => {
   switch (action.type) {
     case SELECT:
       const {cellId, value} = action;
