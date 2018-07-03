@@ -6,10 +6,9 @@ export const config = (state = initialState, action) => {
   switch (action.type) {
     case SELECT:
       const {cellId, value} = action;
-      const selections = {
-        ...state.sections,
+      const selections = Object.assign ({}, state.selections, {
         [cellId]: value,
-      };
+      });
 
       const newState = {
         ...state,

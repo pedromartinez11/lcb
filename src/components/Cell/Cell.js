@@ -4,17 +4,18 @@ import './cell.css';
 
 class Cell extends Component {
   static propTypes = {
-    cardNumber: PropTypes.number.isRequired,
+    cellId: PropTypes.number.isRequired,
+    selection: PropTypes.number,
   };
 
   static defaultProps = {};
 
   render () {
-    const {cardNumber} = this.props;
+    const {selection} = this.props;
 
     return (
       <div className="lcb-cell">
-        cell (# {cardNumber})
+        {selection}
       </div>
     );
   }

@@ -1,7 +1,11 @@
 import {createStore, applyMiddleware, compose} from 'redux';
 import rootReducer from './reducers/rootReducer';
 
-const initialState = {};
+const initialState = {
+  config: {
+    selections: {},
+  },
+};
 
 const initStore = function () {
   const middleware = [];
