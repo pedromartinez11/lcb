@@ -1,16 +1,16 @@
-import React, {Component} from 'react';
-import {Provider} from 'react-redux';
-import './App.css';
-import Card from './components/Card/Card';
-import RandomButton from './components/buttons/RandomButton';
+import React, { Component } from "react";
+import { Provider } from "react-redux";
+import "./App.css";
+import Card from "./components/Card/Card";
+import RandomButton from "./components/buttons/RandomButton";
 
-import initStore from './store/initStore';
-import CardContainer from './containers/CardContainer';
+import initStore from "./store/initStore";
+import CardContainer from "./containers/CardContainer";
 
-const store = initStore ();
+const store = initStore();
 
 class App extends Component {
-  render () {
+  render() {
     return (
       <Provider store={store}>
         <div className="App">
